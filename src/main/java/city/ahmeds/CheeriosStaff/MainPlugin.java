@@ -1,6 +1,6 @@
 package city.ahmeds.CheeriosStaff;
 
-import city.ahmeds.CheeriosStaff.commands.FreezeCommand;
+import city.ahmeds.CheeriosStaff.listener.FreezeListener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -24,7 +24,7 @@ public class MainPlugin extends JavaPlugin {
 		} else {
 			getLogger().info("Config.yml found, loading!");
 		}
-		Bukkit.getServer().getPluginManager().registerEvents(new FreezeCommand.FreezeListener(), this);
+		Bukkit.getServer().getPluginManager().registerEvents(new FreezeListener(), this);
 
 	}
 
