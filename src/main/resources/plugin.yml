@@ -1,0 +1,8 @@
+name: CheeriosStaff
+version: 0.0.1
+main: city.ahmeds.CheeriosStaff.MainPlugin
+author: Vomet
+api-version: 1.14
+commands:
+  mutechat:
+
